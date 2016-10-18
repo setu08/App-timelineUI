@@ -227,7 +227,7 @@ data-active="nav " data-smooth-scrolling="1">
                     <input type="checkbox" checked/><span></span>Discussions
                   </label>
                 </div>
-                <div class="clearfix visible-xs"></div>
+                <!-- <div class="clearfix visible-xs"></div> -->
                 <div class="col-xs-2">
                   <label class="checkbox">
                     <input type="checkbox" /><span></span>Files
@@ -238,7 +238,7 @@ data-active="nav " data-smooth-scrolling="1">
                     <input type="checkbox" /><span></span>Progress
                   </label>
                 </div>
-                <div class="clearfix visible-xs"></div>
+                <!-- <div class="clearfix visible-xs"></div> -->
                 <div class="col-xs-2">
                   <label class="checkbox">
                     <input type="checkbox" /><span></span>Team Members
@@ -519,16 +519,5 @@ data-active="nav " data-smooth-scrolling="1">
 
         <script type="text/javascript" src="js/theme.js"></script>
         <script type="text/javascript" src="custom/custom.js"></script>
-<script>
-//refresh page on browser resize
-$(window).bind('resize', function(e)
-{
-  if (window.RT) clearTimeout(window.RT);
-  window.RT = setTimeout(function()
-  {
-    this.location.reload(false); /* false to get page from cache */
-  }, 200);
-});
-</script>
 </body>
 </html>

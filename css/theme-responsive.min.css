@@ -9,6 +9,9 @@
         0,
         0,
         0.4)
+  }
+    .col-xs-2{
+      min-width: 100%;
     }
     .netbrahma_mega-menu-wrapper.horizontal-menu .netbrahma_mega-menu>.mega-ul>.mega-li {
         float: none;
@@ -64,6 +67,9 @@
     .netbrahma_mega-menu-wrapper.horizontal-menu .netbrahma_mega-menu>.mega-ul>.mega-li {
         padding-left: 10px;
         padding-right: 10px
+    }
+    .col-xs-2{
+      min-width: 100%;
     }
 }
 @media (max-width: 991px) {
@@ -130,6 +136,9 @@
         margin-top: 50px;
         margin-bottom: 75px
     }
+    .col-xs-2{
+      min-width: 100%;
+    }
 }
 @media (max-width: 767px) {
     header {
@@ -174,6 +183,9 @@
     }
     .date1-timeline{
         left: 1vw;
+    }
+    .col-xs-2{
+      min-width: 100%;
     }
 }
 @media (max-width: 480px) {} @media (min-width: 768px) and (max-width: 991px) {
@@ -229,6 +241,9 @@
         top: 178px;
         left: 746px
     }
+    .col-xs-2{
+      min-width: 100%;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1260px) {
     body.boxed-layout .netbrahma_body {
@@ -242,6 +257,9 @@
         margin-left: -10px;
         margin-right: -10px
     }
+    .col-xs-2{
+      min-width: 100%;
+    }
 }
 @media (min-width: 992px) and (max-width: 1016px) {
     body.boxed-layout .netbrahma_body {
@@ -254,6 +272,9 @@
     body.boxed-layout .netbrahma_bottom .bg {
         margin-left: -10px;
         margin-right: -10px
+    }
+    .col-xs-2{
+      min-width: 100%;
     }
 }
 @media (max-width: 767px) {
@@ -288,18 +309,31 @@
     .date1-timeline{
     left: 2vw;
     }
+    .col-xs-2{
+      min-width: 100%;
+    }
 }
 @media (min-width: 360px) and (max-width: 776px) {
 .date1-timeline{
     left: 3.5vw;
 }
+.col-xs-2{
+  min-width: 100%;
+}
+}
 @media (min-width: 768px) and (max-width: 1050px) {
 .date1-timeline{
     left: 70px;
+}
+.col-xs-2{
+  min-width: 100%;
 }
 }
 @media (min-width: 320px) and (max-width: 380px) {
 .date1-timeline{
     left: 2vw;
+}
+.col-xs-2{
+  min-width: 100%;
 }
 }
